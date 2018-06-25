@@ -1,0 +1,8 @@
+@objects
+
+ header  css  .rui-main-logo
+
+= builder index =
+    header:
+      height   42px
+      centered horizontally inside screen

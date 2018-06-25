@@ -1,0 +1,13 @@
+@@ set domain www.realestate.com.au/property
+
+@@ table devices
+   | deviceName  | size     | tags   |
+   | mobile      | 500x700  | mobile |
+   | ipad        | 768x1024 | ipad   |
+   | desktop     | 1024x768 | desktop|
+
+@@ parameterized using devices
+Home page on ${deviceName} device
+      http://${domain}/  ${size}
+        check p4ep.gspec --include "${tags}"
+

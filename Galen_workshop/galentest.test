@@ -1,0 +1,12 @@
+@@ set domain testapp.galenframework.com
+
+@@ table myDevices
+   | deviceName  | size    | tags   |
+   | mobile      | 500x700 | mobile |
+   | desktop     | 1024x768| desktop|
+
+@@ parameterized using myDevices
+Home page on $(deviceName)
+   http://${domain}/  ${size}
+   run gotoLogin.js
+   check galentest.gspec --include "${tag}"

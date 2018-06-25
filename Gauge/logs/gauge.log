@@ -1,0 +1,187 @@
+22:25:11.642 Checking updates...
+22:25:11.858 # Specification Heading
+22:25:11.859 ## Vowel counts in single word
+22:25:11.859 * Vowels in English language are "aeiou".
+
+22:25:11.869 * The word "gauge" has "3" vowels.
+
+22:25:11.872 ## Vowel counts in multiple word
+22:25:11.872 * Vowels in English language are "aeiou".
+
+22:25:11.873 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+22:25:11.982 Plugin [Html Report] with pid [51549] has exited
+22:25:12.088 Specifications:	1 executed	1 passed	0 failed	0 skipped
+22:25:12.088 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+22:25:12.088 
+Total time taken: 30ms
+22:32:52.543 [ValidationError] /Users/syyan/Thoughtworks/Qa/specs/test.spec:12: Step implementation not found => 'Say "hello" to <name>'
+22:32:52.543 [ValidationError] /Users/syyan/Thoughtworks/Qa/specs/test.spec:16: Step implementation not found => 'Say "namaste" to <name>'
+22:32:52.555 # Specification Heading
+22:32:52.556 ## Vowel counts in single word
+22:32:52.556 * Vowels in English language are "aeiou".
+
+22:32:52.564 * The word "gauge" has "3" vowels.
+
+22:32:52.567 ## Vowel counts in multiple word
+22:32:52.568 * Vowels in English language are "aeiou".
+
+22:32:52.569 * Almost all words have vowels 
+
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+22:32:52.673 Plugin [Html Report] with pid [51610] has exited
+22:32:52.777 Specifications:	1 executed	1 passed	0 failed	1 skipped
+22:32:52.777 Scenarios:	2 executed	2 passed	0 failed	2 skipped
+22:32:52.777 
+Total time taken: 29ms
+22:35:21.455 Checking updates...
+22:35:44.213 Runner connection error: Timed out connecting to [::]:55894
+22:35:44.213 Error while killing runner: os: process already finished
+22:35:44.213 Failed to start gauge API: Timed out connecting to [::]:55894
+22:48:27.391 [ParseError] /Users/syyan/Thoughtworks/Qa/specs/test.spec:1 Spec does not have any elements => ''
+22:48:27.391 [ParseError] /Users/syyan/Thoughtworks/Qa/specs/example.spec:39 Dynamic parameter <Vowel Count> could not be resolved => 'Say "hello" to <Vowel Count>'
+22:48:27.391 [ParseError] /Users/syyan/Thoughtworks/Qa/specs/example.spec:43 Dynamic parameter <Vowel Count> could not be resolved => 'Say "namaste" to <Vowel Count>'
+22:48:30.907 Checking updates...
+22:48:57.401 Runner connection error: Timed out connecting to [::]:56029
+22:48:57.401 Error while killing runner: os: process already finished
+22:48:57.401 Failed to start gauge API: Timed out connecting to [::]:56029
+22:50:17.852 [ParseError] /Users/syyan/Thoughtworks/Qa/specs/test.spec:1 Spec does not have any elements => ''
+22:50:17.852 [ParseError] /Users/syyan/Thoughtworks/Qa/specs/example.spec:39 Dynamic parameter <Vowel Count> could not be resolved => 'Say "hello" to <Vowel Count>'
+22:50:17.852 [ParseError] /Users/syyan/Thoughtworks/Qa/specs/example.spec:43 Dynamic parameter <Vowel Count> could not be resolved => 'Say "namaste" to <Vowel Count>'
+22:50:18.233 Checking updates...
+22:50:18.234 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:50:18.235 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:50:19.472 [ValidationError] /Users/syyan/Thoughtworks/Qa/specs/example.spec:18: Step implementation not found => 'The word "gauge" has "3" vowels.'
+22:52:19.122 [ParseError] /Users/syyan/Thoughtworks/Qa/specs/test.spec:1 Spec does not have any elements => ''
+22:52:19.128 Checking updates...
+22:52:19.129 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:52:19.130 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:53:06.027 Checking updates...
+22:53:06.029 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:53:06.030 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:53:06.978 /Users/syyan/Thoughtworks/Qa/specs/test.spec: No scenarios found in spec
+22:53:07.083 Plugin [Html Report] with pid [51789] has exited
+22:53:07.186 Specifications:	0 executed	0 passed	0 failed	1 skipped
+22:53:07.186 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+22:53:07.186 
+Total time taken: 16ms
+22:54:09.709 Checking updates...
+22:54:09.710 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:54:09.711 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:54:10.656 # Specification Heading
+22:54:10.657 /Users/syyan/Thoughtworks/Qa/specs/test.spec:4 No steps found in scenario
+22:54:10.761 Plugin [Html Report] with pid [51806] has exited
+22:54:10.866 Specifications:	1 executed	1 passed	0 failed	0 skipped
+22:54:10.866 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+22:54:10.866 
+Total time taken: 13ms
+22:54:30.367 Checking updates...
+22:54:30.369 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:54:30.370 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:54:31.713 # Specification Heading
+22:54:31.714 ## Vowel counts in single word
+22:54:31.715 * Say "hello" to "gauge"
+22:54:31.825 Plugin [Html Report] with pid [51822] has exited
+22:54:31.926 Specifications:	1 executed	1 passed	0 failed	0 skipped
+22:54:31.926 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22:54:31.926 
+Total time taken: 24ms
+22:55:42.427 Checking updates...
+22:55:42.429 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:55:42.430 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:55:43.384 # Specification Heading
+22:55:43.384 ## Vowel counts in single word
+22:55:43.385 * Say "hello" to "gauge"
+22:55:43.499 Plugin [Html Report] with pid [51839] has exited
+22:55:43.603 Specifications:	1 executed	1 passed	0 failed	0 skipped
+22:55:43.604 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22:55:43.604 
+Total time taken: 23ms
+22:55:55.368 Checking updates...
+22:55:55.370 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:55:55.372 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:55:56.721 # Specification Heading
+22:55:56.722 ## Vowel counts in single word
+22:55:56.722 * Say "hello" to "gauge"
+22:55:56.834 Plugin [Html Report] with pid [51853] has exited
+22:55:56.937 Specifications:	1 executed	1 passed	0 failed	0 skipped
+22:55:56.938 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22:55:56.938 
+Total time taken: 23ms
+22:56:50.455 Checking updates...
+22:56:50.456 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:56:50.457 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=darwin&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+22:56:51.834 # Specification Heading
+22:56:51.835 ## Vowel counts in single word
+22:56:51.835 * Say "hello" to "gauge"
+22:56:51.844 * Create following "hobbit" characters 
+
+     |id |name   |
+     |---|-------|
+     |123|frodo  |
+     |456|bilbo  |
+     |789|samwise|
+22:56:51.952 Plugin [Html Report] with pid [51870] has exited
+22:56:52.055 Specifications:	1 executed	1 passed	0 failed	0 skipped
+22:56:52.055 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22:56:52.055 
+Total time taken: 28ms
+22:59:28.429 # Specification Heading
+22:59:28.430 
+     |id|name  |
+     |--|------|
+     |1 |vishnu|
+22:59:28.430 ## Scenario
+22:59:28.430 * Say "hello" to <name>
+
+22:59:28.439 
+     |id|name  |
+     |--|------|
+     |1 |vishnu|
+22:59:28.439 ## Second Scenario
+22:59:28.440 * Say "namaste" to <name>
+22:59:28.441 
+     |id|name   |
+     |--|-------|
+     |2 |prateek|
+22:59:28.441 ## Scenario
+22:59:28.442 * Say "hello" to <name>
+
+22:59:28.443 
+     |id|name   |
+     |--|-------|
+     |2 |prateek|
+22:59:28.443 ## Second Scenario
+22:59:28.444 * Say "namaste" to <name>
+22:59:28.445 
+     |id|name     |
+     |--|---------|
+     |3 |navaneeth|
+22:59:28.445 ## Scenario
+22:59:28.445 * Say "hello" to <name>
+
+22:59:28.446 
+     |id|name     |
+     |--|---------|
+     |3 |navaneeth|
+22:59:28.446 ## Second Scenario
+22:59:28.447 * Say "namaste" to <name>
+22:59:28.467 Checking updates...
+22:59:28.554 Plugin [Html Report] with pid [51908] has exited
+22:59:28.656 Specifications:	1 executed	1 passed	0 failed	0 skipped
+22:59:28.657 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+22:59:28.657 
+Total time taken: 31ms

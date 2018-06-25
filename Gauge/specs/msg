@@ -1,0 +1,21 @@
+arg1: hello
+name: <name>
+table: [object Object]
+    Given Say "hello" to <name> # src/features/login.feature:26
+      | id | name      |
+      | -- | --------- |
+      | 1  | vishnu    |
+      | 2  | prateek   |
+      | 3  | navaneeth |
+
+
+  Scenario:                      # src/features/login.feature:32
+arg1: namaste
+name: <name>
+table: [object Object]
+    When Say "namaste" to <name> # src/features/login.feature:33
+      | id | name       |
+      | -- | ---------  |
+      | 4  | 4vishnu    |
+      | 5  | 5prateek   |
+      | 6  | 6navaneeth |

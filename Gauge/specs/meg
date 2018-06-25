@@ -1,0 +1,40 @@
+     |id|name  |
+     |--|------|
+     |1 |vishnu|
+  ## Scenario	greeting: hello
+name: vishnu
+ ✔
+
+     |id|name  |
+     |--|------|
+     |1 |vishnu|
+  ## Second Scenario	greeting: namaste
+name: vishnu
+ ✔
+
+     |id|name   |
+     |--|-------|
+     |2 |prateek|
+  ## Scenario	greeting: hello
+name: prateek
+ ✔
+
+     |id|name   |
+     |--|-------|
+     |2 |prateek|
+  ## Second Scenario	greeting: namaste
+name: prateek
+ ✔
+
+     |id|name     |
+     |--|---------|
+     |3 |navaneeth|
+  ## Scenario	greeting: hello
+name: navaneeth
+ ✔
+
+     |id|name     |
+     |--|---------|
+     |3 |navaneeth|
+  ## Second Scenario	greeting: namaste
+name: navaneeth

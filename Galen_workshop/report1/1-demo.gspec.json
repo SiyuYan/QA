@@ -1,0 +1,58 @@
+{
+  "testId" : "1-demo.gspec",
+  "name" : "demo.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  demo.gspec --url http:www.baidu.com --size 1024x768 --htmlreport report1 -Dwebdriver.chrome.driver=/Users/syyan/.nvm/versions/node/v6.9.2/lib/node_modules/galenframework-cli/node_modules/chromedriver/lib/chromedriver/chromedriver",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: demo.gspec included tags: ",
+          "status" : "error",
+          "time" : 1491025836686,
+          "sections" : [ {
+            "name" : "= Main section =",
+            "place" : {
+              "filePath" : "demo.gspec",
+              "lineNumber" : 5
+            },
+            "objects" : [ {
+              "name" : "main-logo",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "demo.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "height 13px",
+                "errors" : [ "\"main-logo\" height is 132px instead of 13px" ],
+                "highlight" : [ "main-logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "demo.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "width  1024px",
+                "highlight" : [ "main-logo" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "main-logo" : {
+              "area" : [ 0, 72, 1024, 132 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1491025836159,
+        "type" : "node"
+      } ],
+      "time" : 1491025832166,
+      "type" : "node"
+    } ]
+  }
+}

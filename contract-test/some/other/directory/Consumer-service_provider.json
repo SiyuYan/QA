@@ -1,0 +1,36 @@
+{
+    "provider": {
+        "name": "service_provider"
+    },
+    "consumer": {
+        "name": "Consumer"
+    },
+    "interactions": [
+        {
+            "description": "a_request_for_statistic",
+            "request": {
+                "method": "GET",
+                "path": "/rest/analysis/services/statistic",
+                "headers": {
+                    "Content-Type": "text/plain;charset=UTF-8"
+                }
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "text/plain;charset=UTF-8"
+                },
+                "body": "{\"responsetest\": true, \"name\": \"harry\"}"
+            },
+            "providerState": "require statistic data"
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "2.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.3.3"
+        }
+    }
+}

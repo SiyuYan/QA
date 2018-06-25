@@ -1,0 +1,5 @@
+Builder page test
+     selenium chrome https://secure.e2e.realestate.com.au/sign_in 768x1024
+        run login.js
+        wait 10s
+        check builder.gspec

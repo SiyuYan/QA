@@ -1,0 +1,8 @@
+@objects
+   login-panel          #login-page
+
+  = Login page =
+   @on desktop
+         login-panel:
+          width 400px
+          centered inside screen

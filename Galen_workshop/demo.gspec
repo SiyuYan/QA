@@ -1,0 +1,8 @@
+
+@objects
+    main-logo  css  #lg
+
+== Main section ==
+  main-logo:
+      height 13px
+      width  1024px

@@ -1,0 +1,166 @@
+{#
+gatling/layout.html
+~~~~~~~~~~~~~~~~~~~
+#}
+
+{%- block doctype -%}
+{%- endblock %}
+
+{% extends "basic/layout.html" %}
+
+{% set css_files = css_files + ['http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700'] %}
+{% set css_files = css_files + ['http://fonts.googleapis.com/css?family=Inconsolata:400,700'] %}
+
+{% set css_files = css_files + ['/styles/main.css'] %}
+
+{% set script_files = script_files + ['/vendor/javascripts/modernizr.min.js'] %}
+{% set script_files = script_files + ['/vendor/javascripts/bootstrap.min.js'] %}
+
+{# do not display relbars #}
+{% block relbar1 %}{% endblock %}
+{% block relbar2 %}{% endblock %}
+
+{% block extrahead %}
+<!--[if IE]>
+<script src="/vendor/javascripts/html5shiv.min.js"></script>
+<![endif]-->
+
+<!--[if IE 6]>
+<script src="/vendor/javascripts/PIE_IE678.min.js"></script>
+<![endif]-->
+<!--[if IE 7]>
+<script src="/vendor/javascripts/PIE_IE678.min.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<script src="/vendor/javascripts/PIE_IE9.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+  // @formatter:off
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53375088-1', 'gatling.io');
+  ga('send', 'pageview');
+  // @formatter:on
+</script>
+
+<script type='text/javascript'>
+  $(document).ready(function () {
+    $('#affix').affix({
+      offset: {
+        top: 48
+      }
+    });
+
+    $('body').scrollspy({
+      target: '#affix'
+    })
+  });
+</script>
+{% endblock %}
+
+{% block content %}
+{%- block gatlingheader %}
+<header id="header" class="navbar navbar-static-top" role="banner">
+  <div class="container">
+    <div class="navbar" role="navigation">
+      <form action="{{ pathto('search') }}" class="col-xs-12 col-sm-6 col-md-4" method="get" role="form">
+        <div class="form-group">
+          <div class="input-group">
+            <input type="text" class="form-control" name="q" placeholder="Search through the documentation"/>
+
+            <div class="input-group-addon">
+              <button type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+            <div class="input-group-addon">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <input type="hidden" name="check_keywords" value="yes"/>
+        <input type="hidden" name="area" value="default"/>
+      </form>
+
+      <nav id="navbar-collapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/#/">HOME</a></li>
+          <li><a href="/#/download">DOWNLOAD</a></li>
+          <li class="active"><a href="/#/docs">DOCUMENTATION</a></li>
+          <li><a href="/#/services">PROFESSIONAL SERVICES</a></li>
+          <li><a class="icon icon-github" href="https://github.com/gatling/gatling"></a></li>
+          <li><a class="icon icon-twitter" href="https://twitter.com/GatlingTool"></a></li>
+          <li><a class="icon icon-googlegroup" href="https://groups.google.com/forum/#!forum/gatling"></a></li>
+        </ul>
+      </nav>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </div>
+</header>
+{%- endblock %}
+
+<section id="doc">
+  <div class="container">
+    <section class="row">
+      {%- if pagename != "search" %}
+      <div class="col-md-9">
+        {%- else %}
+        <div class="col-md-12">
+          {%- endif %}
+          <ul class="breadcrumb">
+            {%- block rootrellink %}
+            <li><a href="{{ pathto(master_doc) }}">{{ shorttitle|e }}</a></li>
+            {%- endblock %}
+            {%- for parent in parents %}
+            <li><a href="{{ parent.link|e }}"
+              {% if loop.last %}{{ accesskey("U") }}{% endif %}>
+              {{ parent.title }}
+              </a>
+            </li>
+            {%- endfor %}
+            <li><a href="">
+              {{ title | e}}
+            </a></li>
+          </ul>
+          {% block body %}{% endblock %}
+        </div>
+        {%- if pagename != "search" %}
+        <div class="col-md-3">
+          <aside id="affix" class="visible-md visible-lg">
+            {%- block sidebartoc %}
+            {% include "localtoc.html" %}
+            {%- endblock %}
+            {%- block sidebar_relations %}
+            {% include "sidebar_relations.html" %}
+            {%- endblock %}
+          </aside>
+        </div>
+      </div>
+      {%- endif %}
+    </section>
+  </div>
+</section>
+
+<footer id="footer">
+  <header class="row-fluid">
+    <div class="content-wrapper text-center">
+      Gatling is an open-source load testing framework based on
+      <strong>Scala</strong>, <strong>Akka</strong> and <strong>Netty</strong>
+    </div>
+  </header>
+  <section class="row-fluid">
+    <div class="content-wrapper text-center">&copy;2014 eBusiness Information 2000-2014</div>
+  </section>
+</footer>
+
+{% block footer %}
+{% endblock %}
+
+{% endblock %}

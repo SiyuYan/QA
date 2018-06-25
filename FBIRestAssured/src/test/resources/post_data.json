@@ -1,0 +1,25 @@
+{
+  "requests": [
+    {
+      "updateCells": {
+        "start": {
+          "sheetId": 910726641,
+          "rowIndex": 7,
+          "columnIndex": 1
+        },
+        "rows": [
+          {
+            "values": [
+              {
+                "userEnteredFormat": {"backgroundColor": {"red": 0.8,
+                  "green": 0.9,
+                  "blue": 0.6}}
+              }
+            ]
+          }
+        ],
+        "fields": "userEnteredFormat.backgroundColor"
+      }
+    }
+  ]
+}

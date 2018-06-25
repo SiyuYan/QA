@@ -1,0 +1,20 @@
+@objects
+        builder_profile   css  .report-section:first-child
+               header   css   .heading
+               profile_view_image  css  .kpi-icon-builderProfileViews
+               profile_view_name   css  .kpi-detail:nth(0) .kpi-name
+               profile_view_value  css  div.kpi-icon-builderProfileViews + div.kpi-detail .kpi-name
+               design_click_image  css  .kpi-icon-quickViewClicks
+               clear-fix    css   ul.clear-fix
+= Builder profile =
+      builder_profile.header:
+            text is "Builder profile highlights"
+            inside builder_profile 0px left right, 40px top
+            css font-size is "17px"
+            css font-family starts "Museo Sans Heavy"
+            css font-family ends "sans-serif"
+            css font-family contains "Helvetica Neue"
+            css color is "rgb(51, 63, 72)"
+      builder_profile.profile_view_image:
+                      width  35px
+                      height 35px

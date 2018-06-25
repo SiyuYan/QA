@@ -1,0 +1,62 @@
+{
+  "testId" : "2-home-page-on-ipad-device",
+  "name" : "Home page on ipad device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://www.realestate.com.au/property/  768x1024",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check p4ep.gspec --include \"ipad\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: p4ep.gspec included tags: ipad",
+          "status" : "info",
+          "time" : 1491025911952,
+          "includedTags" : [ "ipad" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "P4ep index",
+            "place" : {
+              "filePath" : "p4ep.gspec",
+              "lineNumber" : 6
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "p4ep.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "height  49px",
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "p4ep.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "centered horizontally inside screen",
+                "highlight" : [ "header", "screen" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header" : {
+              "area" : [ 0, 0, 768, 49 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 768, 2875 ]
+            }
+          },
+          "screenshot" : "layout-2-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1491025911483,
+        "type" : "node"
+      } ],
+      "time" : 1491025904728,
+      "type" : "node"
+    } ]
+  }
+}

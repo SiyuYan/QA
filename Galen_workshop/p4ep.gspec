@@ -1,0 +1,24 @@
+@objects
+
+ header   css  .rui-header
+ logo  css  a img
+
+= P4ep index =
+    header:
+      @on desktop
+             height   ~157px
+             centered horizontally inside screen
+      @on ipad
+             height  49px
+             centered horizontally inside screen
+      @on mobile
+          height   49px
+          centered horizontally inside screen
+
+    logo:
+       @on desktop
+                height 40px
+                width  232px
+       @on mobile
+                height 24px
+                width  140px

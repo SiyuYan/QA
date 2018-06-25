@@ -1,0 +1,780 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 487,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "0dge3Xh6EjUC",
+      "etag": "bsgu5aHnQkE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0dge3Xh6EjUC",
+      "volumeInfo": {
+        "title": "Advances in Sea Cucumber Aquaculture and Management",
+        "authors": [
+          "C. Conand",
+          "Food and Agriculture Organization of the United Nations"
+        ],
+        "publisher": "Food & Agriculture Org.",
+        "publishedDate": "2004",
+        "description": "This publication contains current information on the status of world sea cucumber resources and use, focusing on established countries such as China, Ecuador, Indonesia, Japan, Malaysia and the Philippines, as well as relative newcomers to the sector such as Cuba, Egypt, Madagascar and Tanzania. Issues discussed include technical advances in artificial reproduction and farming of selected commercial species; and the report includes the recommendations of a FAO workshop on cucumber aquaculture and management, held in China, in October 2003.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9251051631"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789251051634"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 425,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com.hk/books/content?id=0dge3Xh6EjUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com.hk/books/content?id=0dge3Xh6EjUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.hk/books?id=0dge3Xh6EjUC&pg=PA27&dq=cucumber&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com.hk/books?id=0dge3Xh6EjUC&dq=cucumber&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com.hk/books/about/Advances_in_Sea_Cucumber_Aquaculture_and.html?hl=&id=0dge3Xh6EjUC"
+      },
+      "saleInfo": {
+        "country": "HK",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "HK",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://books.google.com.hk/books/reader?id=0dge3Xh6EjUC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The Chinese advocate the use of sea <b>cucumber</b> as a folk remedy. As early as the <br>\nMing Dynasty (1368-1644 BC), sea <b>cucumbers</b> were first recorded as a &#39;tonic&#39; <br>\nfood in the Bencao Gangmu (Li, 1596 reprinted in 1994). Later, sea <b>cucumber</b> <br>\nwas&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YuC_HK8b6_4C",
+      "etag": "5S8GzyfpNHc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YuC_HK8b6_4C",
+      "volumeInfo": {
+        "title": "The striped cucumber beetle and its control",
+        "authors": [
+          "Frank Hurlbut Chittenden"
+        ],
+        "publishedDate": "1919",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UIUC:30112019279121"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 19,
+        "printType": "BOOK",
+        "categories": [
+          "Cucumbers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "full-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com.hk/books/content?id=YuC_HK8b6_4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com.hk/books/content?id=YuC_HK8b6_4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.hk/books?id=YuC_HK8b6_4C&pg=PA10&dq=cucumber&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com.hk/books?id=YuC_HK8b6_4C&dq=cucumber&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com.hk/books/about/The_striped_cucumber_beetle_and_its_cont.html?hl=&id=YuC_HK8b6_4C"
+      },
+      "saleInfo": {
+        "country": "HK",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "http://books.google.com.hk/books?id=YuC_HK8b6_4C&dq=cucumber&hl=&buy=&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "HK",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com.hk/books/download/The_striped_cucumber_beetle_and_its_cont.pdf?id=YuC_HK8b6_4C&hl=&output=pdf&sig=ACfU3U018cWT4FgNkZX6_yDaaYR1BFdCXA&source=gbs_api"
+        },
+        "webReaderLink": "http://books.google.com.hk/books/reader?id=YuC_HK8b6_4C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A common kind of ground-hectic 1 destroying the striped <b>cucumber</b> bee has been <br>\nobserved repeatedly tie in Indiana, but is not an important factor in holding this <br>\npest in check. Another enemy, a mite,2 develops more frequently when the plants<br>\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0FsUAAAAQAAJ",
+      "etag": "iVsTck82+lk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0FsUAAAAQAAJ",
+      "volumeInfo": {
+        "title": "A Treatise on the Culture of the Cucumber",
+        "subtitle": "Shewing a New and Advantageous Method of Cultivating that Plant, with Full Directions for the Management Thereof, ... By James McPhail, ...",
+        "authors": [
+          "James MacPhail"
+        ],
+        "publishedDate": "1794",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OXFORD:N11736449"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 528,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "full-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com.hk/books/content?id=0FsUAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com.hk/books/content?id=0FsUAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.hk/books?id=0FsUAAAAQAAJ&pg=PA512&dq=cucumber&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com.hk/books?id=0FsUAAAAQAAJ&dq=cucumber&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com.hk/books/about/A_Treatise_on_the_Culture_of_the_Cucumbe.html?hl=&id=0FsUAAAAQAAJ"
+      },
+      "saleInfo": {
+        "country": "HK",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "http://books.google.com.hk/books?id=0FsUAAAAQAAJ&dq=cucumber&hl=&buy=&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "HK",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com.hk/books/download/A_Treatise_on_the_Culture_of_the_Cucumbe.epub?id=0FsUAAAAQAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com.hk/books/download/A_Treatise_on_the_Culture_of_the_Cucumbe.pdf?id=0FsUAAAAQAAJ&hl=&output=pdf&sig=ACfU3U1tLHdoYuHoenX2gMGc9I9VABlFAA&source=gbs_api"
+        },
+        "webReaderLink": "http://books.google.com.hk/books/reader?id=0FsUAAAAQAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "C2sqTdeG9YQC",
+      "etag": "XCWe0JRzmLY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/C2sqTdeG9YQC",
+      "volumeInfo": {
+        "title": "Status and management of the sea cucumber fishery of La Grande Terre, New Caledonia",
+        "publisher": "WorldFish",
+        "publishedDate": "2009",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789832346722"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "983234672X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 134,
+        "printType": "BOOK",
+        "categories": [
+          "Sea cucumbers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.0.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com.hk/books/content?id=C2sqTdeG9YQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com.hk/books/content?id=C2sqTdeG9YQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.hk/books?id=C2sqTdeG9YQC&pg=PA87&dq=cucumber&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com.hk/books?id=C2sqTdeG9YQC&dq=cucumber&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com.hk/books/about/Status_and_management_of_the_sea_cucumbe.html?hl=&id=C2sqTdeG9YQC"
+      },
+      "saleInfo": {
+        "country": "HK",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "HK",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.hk/books/download/Status_and_management_of_the_sea_cucumbe-sample-pdf.acsm?id=C2sqTdeG9YQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://books.google.com.hk/books/reader?id=C2sqTdeG9YQC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "General goals of management regulations The management plan for the sea <br>\n<b>cucumber</b> fisheries in Province Nord and Province Sud should be based on <br>\nsome guiding principles about what the stakeholders want out of the fishery. In <br>\nthis case&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "RnDQBgAAQBAJ",
+      "etag": "axDXXJG3QSk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RnDQBgAAQBAJ",
+      "volumeInfo": {
+        "title": "Commercial Greenhouse Cucumber Production",
+        "subtitle": "2010 Edition",
+        "authors": [
+          "Jeremy Badgery-Parker",
+          "Leigh James",
+          "Joshua Jarvis",
+          "Dr Sophie Parks"
+        ],
+        "publisher": "NSW Agriculture",
+        "publishedDate": "2015-02-26",
+        "description": "A comprehensive guide to the basics of growing greenhouse cucumbers, this manual aims to assist Australian greenhouse growers in the development of good agricultural practices. This manual contains science-based information in a simple to use format that is relevant to a basic greenhouse horticultural enterprise to controlled environment horticulture. CONTENTS About this manual List of tables Introduction to greenhouse cucumber production Growing cucumbers Optimising production Greenhouse design and technology Hydroponic systems and technology Feeding the crop Plant nutrition Cucumber disorders and their management Cucumber diseases and their management Cucumber pests and their management Pesticides, sprays and their use in cucumbers Marketing and handling of cucumbers Waste management Health and safety in the greenhouse Some resources and further reading",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781742561400"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1742561403"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 372,
+        "printType": "BOOK",
+        "categories": [
+          "Reference"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.2.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com.hk/books/content?id=RnDQBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com.hk/books/content?id=RnDQBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.hk/books?id=RnDQBgAAQBAJ&printsec=frontcover&dq=cucumber&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com.hk/books?id=RnDQBgAAQBAJ&dq=cucumber&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com.hk/books/about/Commercial_Greenhouse_Cucumber_Productio.html?hl=&id=RnDQBgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "HK",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 182.14,
+          "currencyCode": "HKD"
+        },
+        "retailPrice": {
+          "amount": 127.5,
+          "currencyCode": "HKD"
+        },
+        "buyLink": "http://books.google.com.hk/books?id=RnDQBgAAQBAJ&dq=cucumber&hl=&buy=&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.8214E8,
+              "currencyCode": "HKD"
+            },
+            "retailPrice": {
+              "amountInMicros": 1.275E8,
+              "currencyCode": "HKD"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "HK",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.hk/books/download/Commercial_Greenhouse_Cucumber_Productio-sample-epub.acsm?id=RnDQBgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.hk/books/download/Commercial_Greenhouse_Cucumber_Productio-sample-pdf.acsm?id=RnDQBgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://books.google.com.hk/books/reader?id=RnDQBgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A comprehensive guide to the basics of growing greenhouse cucumbers, this manual aims to assist Australian greenhouse growers in the development of good agricultural practices."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0IrGCQAAQBAJ",
+      "etag": "FuFY5v97p94",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0IrGCQAAQBAJ",
+      "volumeInfo": {
+        "title": "Cucumber Cookbook",
+        "authors": [
+          "Shankar Garg"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2015-06-02",
+        "description": "This book is intended for business and development personnel who want to use Cucumber for behavior-driven development and test automation. Readers with some familiarity with Cucumber will find this book of most benefit. Since the main objective of this book is to create test automation frameworks, previous experience in automation will be helpful.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781785284137"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1785284134"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 162,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com.hk/books/content?id=0IrGCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com.hk/books/content?id=0IrGCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.hk/books?id=0IrGCQAAQBAJ&pg=PA66&dq=cucumber&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.hk/books?id=0IrGCQAAQBAJ&dq=cucumber&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com.hk/books/about/Cucumber_Cookbook.html?hl=&id=0IrGCQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "HK",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 248.05,
+          "currencyCode": "HKD"
+        },
+        "retailPrice": {
+          "amount": 173.64,
+          "currencyCode": "HKD"
+        },
+        "buyLink": "http://books.google.com.hk/books?id=0IrGCQAAQBAJ&dq=cucumber&hl=&buy=&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2.4805E8,
+              "currencyCode": "HKD"
+            },
+            "retailPrice": {
+              "amountInMicros": 1.7364E8,
+              "currencyCode": "HKD"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "HK",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://books.google.com.hk/books/reader?id=0IrGCQAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "<b>Cucumber</b> ships with a JUnit runner, <b>Cucumber</b>.api.junit.<b>Cucumber</b>. This class <br>\ntells JUnit to invoke <b>Cucumber</b> JUnit runner. It will search for Feature files and run <br>\nthem, providing the output back to JUnit in a format that it understands. Executing<br>\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "p_VDBAAAQBAJ",
+      "etag": "CmdEBPvMadA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/p_VDBAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Sea Cucumber Apostichopus japonicus",
+        "subtitle": "History, Biology and Aquaculture",
+        "authors": [
+          "Hongsheng Yang",
+          "Jean-Francois Hamel",
+          "Annie Mercier"
+        ],
+        "publisher": "Academic Press",
+        "publishedDate": "2015-01-07",
+        "description": "While sea cucumber is one of China's and Asia’s most prized seafoods, and aquaculture programs are being developed on a huge commercial scale, Chinese expertise and knowledge in this area has not been well disseminated worldwide. The Sea Cucumber Apostichopus japonicus is the first book to bridge this gap by compiling key information related to hatchery and aquaculture techniques, nutritional and medical values, markets, and trade flow of the number one sea cucumber species. It summarizes the historical and most recent developments in the trade and aquaculture of Apostichopus japonicus, as well as important aspects of its anatomy, population dynamics, reproduction, development, physiology, and biochemistry. With sea cucumber harvest and aquaculture booming worldwide, comprehensive knowledge of China’s technological breakthroughs in this rapidly expanding field is key. The Sea Cucumber Apostichopus japonicus is essential to understanding the cultural underpinnings of the insatiable market demands for sea cucumber and what drives sea cucumber trade. It also provides biological information and aquaculture techniques that can be adapted to other species, making it a valuable resource for researchers and practitioners involved in sea cucumber harvesting, aquaculture, and conservation. Explores the historical and current importance of Apostichopus japonicus in China, Japan, and the two Koreas Presents innovative production technologies in sea cucumber aquaculture Provides the latest scientific methods to maximize efficiency and production Includes important information on the design and operation of farms Discusses hot topics, current challenges, and future opportunities in aquaculture Highlights important advances in the study of sea cucumbers at the behavioral, cellular, and molecular levels",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780128004678"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0128004673"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 478,
+        "printType": "BOOK",
+        "categories": [
+          "Technology & Engineering"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.2.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com.hk/books/content?id=p_VDBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com.hk/books/content?id=p_VDBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.hk/books?id=p_VDBAAAQBAJ&pg=PA361&dq=cucumber&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com.hk/books?id=p_VDBAAAQBAJ&dq=cucumber&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com.hk/books/about/The_Sea_Cucumber_Apostichopus_japonicus.html?hl=&id=p_VDBAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "HK",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1396.36,
+          "currencyCode": "HKD"
+        },
+        "retailPrice": {
+          "amount": 977.45,
+          "currencyCode": "HKD"
+        },
+        "buyLink": "http://books.google.com.hk/books?id=p_VDBAAAQBAJ&dq=cucumber&hl=&buy=&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.39636E9,
+              "currencyCode": "HKD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9.7745E8,
+              "currencyCode": "HKD"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "HK",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.hk/books/download/The_Sea_Cucumber_Apostichopus_japonicus-sample-epub.acsm?id=p_VDBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.hk/books/download/The_Sea_Cucumber_Apostichopus_japonicus-sample-pdf.acsm?id=p_VDBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://books.google.com.hk/books/reader?id=p_VDBAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "They cured the condition known as Yang Ming disease with a decoction of <br>\nGlycyrrhiza uralensis, Panax ginseng, Angelica sinensis, Chinese rhubarb, <br>\nmirabilite, figwort, Liriope, and ginger to which sea <b>cucumber</b> was added. Some <br>\nof the&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "P5qECgAAQBAJ",
+      "etag": "ufbkH/HRjx4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/P5qECgAAQBAJ",
+      "volumeInfo": {
+        "title": "Gardener’s Guide to the Cucumber",
+        "subtitle": "The Growing Cucumbers in the Vegetable Garden Book",
+        "authors": [
+          "Paul R. Wonning"
+        ],
+        "publisher": "Mossy Feet Books",
+        "description": "Growing cucumbers in the vegetable garden is easier than you might think. Fresh cucumbers provide a tasty vegetable treat for the table and excellent addition to salads or to just eat. Pickled cucumbers extend the eating season for the cucumber well into winter, as well. Gardener’s Guide to Growing Cucumbers is an excellent vegetable garden guide for the garden beginner as well as the veteran gardener. Vegetable gardeners will find sections on growing, freeing, storing and canning carrots. Planting, culture, harvest and storage of the carrot is covered as well. Gardener’s Guide to Growing Cucumbers contains a list of seed sources as well. It will please vegetable gardeners to find our extensive list of seed catalogs included as well. This updated catalog includes some new seed catalog finds. The garden vegetable series Gardener's Guide to Growing Your Vegetable Garden includes this book. This exciting new series of vegetable gardening books will include twenty vegetables. These are the most common ones grown in the home vegetable garden. The books will all include complete growing, culture, botanical, harvesting and storage information. Great for veteran or beginning gardeners the series is written for gardeners by a gardener. cucumber, cucumber book, grow cucumber, cucumber vegetables, growing vegetables, vegetable garden beginner, how to grow cucumber",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781310569906"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1310569908"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Gardening"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.4.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com.hk/books/content?id=P5qECgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com.hk/books/content?id=P5qECgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.hk/books?id=P5qECgAAQBAJ&pg=PT40&dq=cucumber&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com.hk/books?id=P5qECgAAQBAJ&dq=cucumber&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com.hk/books/about/Gardener_s_Guide_to_the_Cucumber.html?hl=&id=P5qECgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "HK",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 30.58,
+          "currencyCode": "HKD"
+        },
+        "retailPrice": {
+          "amount": 25.38,
+          "currencyCode": "HKD"
+        },
+        "buyLink": "http://books.google.com.hk/books?id=P5qECgAAQBAJ&dq=cucumber&hl=&buy=&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3.058E7,
+              "currencyCode": "HKD"
+            },
+            "retailPrice": {
+              "amountInMicros": 2.538E7,
+              "currencyCode": "HKD"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "HK",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://books.google.com.hk/books/reader?id=P5qECgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "resistance: <b>cucumber</b> mosiac virus, <b>cucumber</b> vein yellows virus, powdery <br>\nmildew, scab, target leaf spot. Poona Keera <b>Cucumber</b> (53 day heirloom) This is <br>\nwhite <b>cucumber</b> from India eventually turns a russet brown, can be eaten at any <br>\nstage,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gkYY-bnuRGwC",
+      "etag": "qs7VQlDsvV0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gkYY-bnuRGwC",
+      "volumeInfo": {
+        "title": "Instant Cucumber BDD How-to",
+        "authors": [
+          "Wayne Ye"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2013-04-24",
+        "description": "Filled with practical, step-by-step instructions and clear explanations for the most important and useful tasks. This standard How-to guide explains the essence of Cucumber, describing how to write Cucumber features to drive development in a real project, and also describe many pro tips for writing good Cucumber features and steps.Instant Cucumber BDD How-to is great for an Agile software development team that wants to adopt a behaviour-driven process using Cucumber. It assumes that the team is passionate in reducing communication gaps between developers and product managers, ensuring the development is always on the right track and always focused on minimum marketable value.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781782163497"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1782163492"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 70,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.0.1.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com.hk/books/content?id=gkYY-bnuRGwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com.hk/books/content?id=gkYY-bnuRGwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.hk/books?id=gkYY-bnuRGwC&pg=PT32&dq=cucumber&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.hk/books?id=gkYY-bnuRGwC&dq=cucumber&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com.hk/books/about/Instant_Cucumber_BDD_How_to.html?hl=&id=gkYY-bnuRGwC"
+      },
+      "saleInfo": {
+        "country": "HK",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 116.23,
+          "currencyCode": "HKD"
+        },
+        "retailPrice": {
+          "amount": 79.04,
+          "currencyCode": "HKD"
+        },
+        "buyLink": "http://books.google.com.hk/books?id=gkYY-bnuRGwC&dq=cucumber&hl=&buy=&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.1623E8,
+              "currencyCode": "HKD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7.904E7,
+              "currencyCode": "HKD"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "HK",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://books.google.com.hk/books/reader?id=gkYY-bnuRGwC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "<b>Cucumber</b> is now available on many platforms. The following is a list of a number <br>\nof popular ones: - JVM: <b>Cucumber</b>-JVM - .NET: SpecFIow - Python: RubyPython, <br>\nLettuce - PHP: Behat - Erlang: Cucumberl <b>Cucumber</b> in your mother language&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "fAC9CgAAQBAJ",
+      "etag": "FEJW688USFI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/fAC9CgAAQBAJ",
+      "volumeInfo": {
+        "title": "Cucumber Greats: Delicious Cucumber Recipes, The Top 100 ...",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "full-1.0.0",
+        "language": "en",
+        "previewLink": "http://books.google.com.hk/books?id=fAC9CgAAQBAJ&pg=PT44&dq=cucumber&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com.hk/books?id=fAC9CgAAQBAJ&dq=cucumber&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com.hk/books/about/b_Cucumber_b_Greats_Delicious_b_Cucumber.html?hl=&id=fAC9CgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "HK",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "http://books.google.com.hk/books?id=fAC9CgAAQBAJ&dq=cucumber&hl=&buy=&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "HK",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://books.google.com.hk/books/reader?id=fAC9CgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Source: <b>Cucumber</b> Greats 1 cup nonfat yogurt 1 large <b>cucumber</b>, peel, seed and <br>\nchop 1/2 small onion, chopped 1 ds ground pepper Put all ingredients in a <br>\nblender and process until smooth, Refrigerate. 35 <b>Cucumber</b> Greats <br>\n<b>CUCUMBER</b>&nbsp;..."
+      }
+    }
+  ]
+}

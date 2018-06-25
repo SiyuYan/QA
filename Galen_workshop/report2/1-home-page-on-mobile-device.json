@@ -1,0 +1,84 @@
+{
+  "testId" : "1-home-page-on-mobile-device",
+  "name" : "Home page on mobile device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://www.realestate.com.au/property/  500x700",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check p4ep.gspec --include \"mobile\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: p4ep.gspec included tags: mobile",
+          "status" : "info",
+          "time" : 1491025904593,
+          "includedTags" : [ "mobile" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "P4ep index",
+            "place" : {
+              "filePath" : "p4ep.gspec",
+              "lineNumber" : 6
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "p4ep.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "height   49px",
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "p4ep.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "centered horizontally inside screen",
+                "highlight" : [ "header", "screen" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "p4ep.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "height 24px",
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "p4ep.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "width  140px",
+                "highlight" : [ "logo" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header" : {
+              "area" : [ 0, 0, 500, 49 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 500, 2969 ]
+            },
+            "logo" : {
+              "area" : [ 180, 12, 140, 24 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1491025904110,
+        "type" : "node"
+      } ],
+      "time" : 1491025894657,
+      "type" : "node"
+    } ]
+  }
+}

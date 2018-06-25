@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>contract-test</groupId>
+    <artifactId>pact</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <!-- https://mvnrepository.com/artifact/au.com.dius/pact-jvm-consumer-junit_2.11 -->
+    <dependencies>
+        <dependency>
+            <groupId>au.com.dius</groupId>
+            <artifactId>pact-jvm-consumer-junit_2.11</artifactId>
+            <version>3.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.1.6.RELEASE</version>
+        </dependency>
+    </dependencies>
+    <profiles>
+        <profile>
+            <id>provider</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>au.com.dius</groupId>
+                        <artifactId>pact-jvm-provider-maven_2.11</artifactId>
+                        <version>3.2.10</version>
+                        <configuration>
+                            <serviceProviders>
+                                <serviceProvider>
+                                    <name>service_provider</name>
+                                    <!-- All the provider properties are optional, and have sensible defaults (shown below) -->
+                                    <protocol>http</protocol>
+                                    <host>localhost</host>
+                                    <port>9002</port>
+                                    <path>/</path>
+                                    <pactFileDirectory>target/pacts/</pactFileDirectory>
+                                </serviceProvider>
+                            </serviceProviders>
+                            <pactBrokerUrl/>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>
