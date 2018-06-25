@@ -1,0 +1,69 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: Company Directory
+  description: A sample API that demonstrates authentication, permissions, and custom business logic
+
+consumes:
+  - application/json
+produces:
+  - application/json
+
+definitions:
+  session:
+    $ref: api/schemas/session.yaml
+  employee:
+    $ref: api/schemas/employee.yaml
+  department:
+    $ref: api/schemas/department.yaml
+  project:
+    $ref: api/schemas/project.yaml
+
+parameters:
+  sessionCookie:
+    name: Cookie
+    in: header
+    required: true
+    type: string
+    description: The session cookie (for any operations that require auth)
+
+  username:
+    name: username
+    in: path
+    required: true
+    type: string
+    pattern: "^\\w+$"   # only allows alphanumeric characters
+    description: This is the {username} path parameter
+
+  projectId:
+    name: projectId
+    in: path
+    required: true
+    type: number
+    description: This is the {projectId} path parameter
+
+  photoType:
+    name: photoType
+    in: path
+    required: true
+    type: string
+    enum: [portrait, thumbnail]
+    description: This is the {photoType} path parameter
+
+paths:
+  /sessions:
+    $ref: api/sessions.yaml
+  /sessions/{sessionId}:
+    $ref: api/session.yaml
+  /employees:
+    $ref: api/employees.yaml
+  /employees/{username}:
+    $ref: api/employee.yaml
+  /employees/{username}/photos/{photoType}:
+    $ref: api/employee-photo.yaml
+  /projects:
+    $ref: api/projects.yaml
+  /projects/{projectId}:
+    $ref: api/project.yaml
+  /projects/{projectId}/members/{username}:
+    $ref: api/project-member.yaml

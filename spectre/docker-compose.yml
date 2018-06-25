@@ -1,0 +1,34 @@
+version: "2"
+
+services:
+  app:
+    image: wearefriday/spectre
+    build: .
+    ports:
+     - "3000:3000"
+    links:
+     - db
+    environment:
+      - RAILS_ENV=production
+      - RAILS_SERVE_STATIC_FILES=true
+      - DATABASE_URL=postgresql://postgres@db/spectre
+      - DOMAIN_NAME=app
+      - PORT=:3000
+      - PROTOCOL=http://
+    volumes:
+     - .:/app
+    command: bash -c "rm -f /app/tmp/pids/*.pid && rake assets:precompile && SECRET_KEY_BASE=`rake secret` rails server -b 0.0.0.0"
+
+  db:
+    image: postgres:9.4
+    ports:
+     - "5432"
+    volumes:
+     - .:/app
+     - .:/public
+     - data-db:/var/lib/postgresql/data
+    environment:
+     - POSTGRES_DB=spectre
+
+volumes:
+  data-db: {}

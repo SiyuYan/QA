@@ -1,0 +1,57 @@
+language: node_js
+node_js:
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+matrix:
+  fast_finish: true
+env:
+  matrix:
+  - CXX=g++-4.8
+  global:
+  # NPM KEY
+  - secure: NikiOMeibEpwVk4mLdXxCDm4jknLWZQQACSwHPlotB0u9JRzlyIoJhm47uzlPnKMtCylV0DMXQo32qbuv2xTIbB0cuZqcTzJaE2pQPHpnsVOrUnOlzRF0bSyRZGY/22ELQxWgK2Jc94lWBiniHbZzLeRh/iSAShj/lmUgVRXgUg1bxjdPNDOb3A+QNMMTl8NIp9FajsOp1l+2RXOZaJZwZChMnB+jLIMk4C56onV+rTn4EvxM/6mY0tOD+fO78Qz72riAcP8CSm/POlwTd/LcKdjtV+A6udPmuetZEy+4SWRF82WsWvU9RTytkr4kgct/uD7Y1oBVS9FMMBndS0YV6GSRnz4nwSUfAGJC93cijcrBzMRJxJ8+lYDMNPmED352RfIo68Lnrp73fXii2KMbyrSDFZUxaP4BMJu2LgUTBbk1+mxcEZMwByR2ZGEZMI7XXft1t2rMLWbWd9Ppo1XlT4XsJ6sLQHdU8/XDq4Zz7s4TVUnhNSpHqRUHQlpUxsvncUo7JgLoB9VzUIA8hK6Vs6/zKvCLgTew330vjDFTQCl473OlsfuFBpqHLBc57kfWbaugvan5OW1RXUpydoptX5tmIIIfWe8XbyKKCBK+fS9LO7qQaYlsPDyjQqJ+IXBRd239odNia/ke6F9Pkvcdt2Z/NEqDtuN9azKy+LHGT8
+script: |
+  npm run dist
+
+  # Only run E2E examples on Node 6+
+  if [[ "${TRAVIS_NODE_VERSION}" =~ ^[6-8] ]]; then
+    echo "Running e2e examples build for node version ${TRAVIS_NODE_VERSION}"
+    npm run test:e2e-examples
+  else
+    echo "Skipping examples for node version ${TRAVIS_NODE_VERSION}"
+  fi
+after_success:
+- npm run coverage
+before_deploy:
+- npm prune --production
+- tar -czvf pactjs.tar.gz config dist src package.json README.md LICENSE
+- npm run deploy:prepare
+deploy:
+- provider: releases
+  api_key:
+    secure: FmoLJnO8GNxyztR2P433ZCumYPrxiZdBCfVhmhTGYlXhOfVaAECm0gUVPLZuBQRUaqsef5ekg+OSIA5xbrnNoOQ9qlmnF2n+5yiwqG6o35XLA4L6lB5pL+x8xoAAgpaj9dTD184HKGdub3heQStTPRd2ll3nNRwxhfyIyBaMX3elDTH3mkV2QxNhG1RTgJe322PQrwoU2sWkghTWNr4t+h/G+oYu364xwZuxFX1hrFpAW+IEmbDSuhmCe24lMU96ntIiciRU3eBYR7s3KlktOFgMORXMRw3H/qaGmx7rKtpJ892XGRuVbw+tPB3A1jbFvOwJwzpnsWG5REu3PkZ6oiWpnX+5riN3jPyvFpWd+LLfH1KdZeBnF/anEfl+mSPdrDROOWotV3Xt5zOiEwx2j4BRbDNfa6wXzX0zK31AMf0IFmw7KZJkzcyWjNRluxTn3r2bbjNoi+gBojQuX27R3AQz5G0E0yZUk5ujmcd+85WOgNh/zVwsZLHYVQxDyULkbDTCDAulBsJLyxUFRs0JixyHCvA6srrUdpcO0NdyDfvULk9e/g/c9aD56Rk4xT4/Xa7K1fAHLjLkV6CA4H9Of96Zl2BK8r6LAlw382hO7FaZH+A3YShObEeTiZsDbfSQrFl5x8aimvc9oeYopvvQ+EdZxHvvwxHQIp/MWOybdJ4=
+  file: pactjs.tar.gz
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: master
+    node: '6'
+- provider: npm
+  email: pact-foundation@googlegroups.com
+  api_key:
+    secure: jvmoyItvKvPrPZjWtD8/l12fjkIunhdBaKduPjzrJ9xGrnRRigI+NY6WVdWlPJ6IMbHi5f258idUhrP3nTL7QCPMSIb0P/JZyrrkHliPLyRhBP+yc/s+AuzYJm09O454JgvxnWuENGsLtR5q6swo6pDGFwthIyAHL/O8AXEavz3jG7GULjwIL/LtBKCzoK+L4WdS8SC0X8WUP6+/hgoiqmydHWKn23EQuw7Ia8ETp6yTuihuap/x8y869HUU+8+punx62Fav6ChsR8olN0WOakI9hC4B+dmz7TRRPTCN2WGa68f5UctAedSba2T/ChBpufAPnHJYAz2T372OMjQtHuD14DDVHoar6X3I5djaq6M1k06hJ7WMTCP0gItaUXMiy6I5Nlo/5tvOIXsUxiO3Ll7GzK5rpj/pqwIrm6Ecda9kPMzaC6IdEPZ9v+yglSd9zsbs2wfAuXlfJvH5/3oeWSCdIzYwJL8v63xQienxhxfAfMLqXP+GyuntqIV/NrHuunpSAjZGqXALJ5Ff1oWybQQVPDTlxWi4VdHfrw1lhPwUWVzNbaFq8hsnrujmLcpq0/X3p3QXgEMB2A3pJ49mm2Y9/YI9m2MPryhBL1x1WmtI+1udONlb1VIeU6KOUUulUXufRPv5gS/3NnisdhYj7KkF4GyrPaQYQAxh8tvy9Xs
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: master
+    node: '6'
+- provider: script
+  skip_cleanup: true
+  script: npm publish dist --access public
+  on:
+    branch: master
+    tags: true
+    node: '6'

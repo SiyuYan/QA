@@ -1,0 +1,299 @@
+10:33:42.626 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+10:33:42.627 INFO - Launching a standalone Selenium Server
+2017-08-01 10:33:42.689:INFO::main: Logging initialized @673ms to org.seleniumhq.jetty9.util.log.StdErrLog
+10:33:42.757 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+10:33:42.757 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+10:33:42.758 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:33:42.758 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+10:33:42.758 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:33:42.758 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-08-01 10:33:42.813:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-08-01 10:33:42.853:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@14acaea5{/,null,AVAILABLE}
+2017-08-01 10:33:42.954:INFO:osjs.AbstractConnector:main: Started ServerConnector@e25b2fe{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-08-01 10:33:42.955:INFO:osjs.Server:main: Started @940ms
+10:33:42.955 INFO - Selenium Server is up and running
+10:33:43.205 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+10:33:43.239 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Amazon / Sign In Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+10:33:43.303 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Amazon / Sign In Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 42140
+Only local connections are allowed.
+10:33:44.627 INFO - Detected dialect: OSS
+10:33:44.657 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Amazon / Sign In Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+10:33:44.673 INFO - Executing: [get: https://www.amazon.com])
+10:34:08.578 INFO - Done: [get: https://www.amazon.com]
+10:34:08.585 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:34:08.626 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:34:08.631 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #nav-link-accountList]])
+10:34:08.650 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #nav-link-accountList]]
+10:34:08.655 INFO - Executing: [find element: By.cssSelector: #nav-link-accountList])
+10:34:08.675 INFO - Done: [find element: By.cssSelector: #nav-link-accountList]
+10:34:08.679 INFO - Executing: [click: 0 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #nav-link-accountList]])
+10:34:11.265 INFO - Done: [click: 0 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #nav-link-accountList]]
+10:34:11.278 INFO - Executing: [find element: By.cssSelector: #ap_email])
+10:34:11.346 INFO - Done: [find element: By.cssSelector: #ap_email]
+10:34:11.350 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #ap_email]])
+10:34:11.367 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #ap_email]]
+10:34:11.371 INFO - Executing: [find element: By.cssSelector: #ap_password])
+10:34:11.388 INFO - Done: [find element: By.cssSelector: #ap_password]
+10:34:11.392 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #ap_password]])
+10:34:11.408 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #ap_password]]
+10:34:11.411 INFO - Executing: [find element: By.cssSelector: #ap_email])
+10:34:11.418 INFO - Done: [find element: By.cssSelector: #ap_email]
+10:34:11.422 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #ap_email], [n, i, g, h, t, w, a, t, c, h, @, t, e, s, t, ., c, o, m]])
+10:34:11.548 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #ap_email], [n, i, g, h, t, w, a, t, c, h, @, t, e, s, t, ., c, o, m]]
+10:34:11.552 INFO - Executing: [find element: By.cssSelector: #ap_password])
+10:34:11.560 INFO - Done: [find element: By.cssSelector: #ap_password]
+10:34:11.564 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #ap_password], [P, a, s, s, w, o, r, d, 1]])
+10:34:11.641 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #ap_password], [P, a, s, s, w, o, r, d, 1]]
+10:34:11.646 INFO - Executing: [find element: By.cssSelector: #signInSubmit])
+10:34:11.664 INFO - Done: [find element: By.cssSelector: #signInSubmit]
+10:34:11.667 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #signInSubmit]])
+10:34:28.832 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (baeb1d434230a9537e385da1a244ce3a)] -> css selector: #signInSubmit]]
+10:34:28.837 INFO - Executing: [find element: By.cssSelector: #hud-customer-name > div > a])
+10:34:29.631 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#hud-customer-name > div > a"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'so.local', ip: 'fe80:0:0:0:444:79fc:d24:c820%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/bw/v_cc8dnj4tb7g9lg6w348l080000gn/T/.org.chromium.Chromium.xmp0v8}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: baeb1d434230a9537e385da1a244ce3a
+*** Element info: {Using=css selector, value=#hud-customer-name > div > a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+10:34:29.633 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":"#hud-customer-name > div > a"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'so.local', ip: 'fe80:0:0:0:444:79fc:d24:c820%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/bw/v_cc8dnj4tb7g9lg6w348l080000gn/T/.org.chromium.Chromium.xmp0v8}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: baeb1d434230a9537e385da1a244ce3a
+*** Element info: {Using=css selector, value=#hud-customer-name > div > a}
+10:34:29.758 INFO - Executing: [take screenshot])
+10:35:04.845 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35.09 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'so.local', ip: 'fe80:0:0:0:444:79fc:d24:c820%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/bw/v_cc8dnj4tb7g9lg6w348l080000gn/T/.org.chromium.Chromium.xmp0v8}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: baeb1d434230a9537e385da1a244ce3a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.server.handler.CaptureScreenshot.call(CaptureScreenshot.java:36)
+	at org.openqa.selenium.remote.server.handler.CaptureScreenshot.call(CaptureScreenshot.java:26)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+10:35:04.846 WARN - Exception: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35.09 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'so.local', ip: 'fe80:0:0:0:444:79fc:d24:c820%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/bw/v_cc8dnj4tb7g9lg6w348l080000gn/T/.org.chromium.Chromium.xmp0v8}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: baeb1d434230a9537e385da1a244ce3a
+10:35:04.853 INFO - Executing: [delete session: a3bb9afe-85d1-467a-903e-2c2a55895c71])
+10:35:04.939 INFO - Done: [delete session: a3bb9afe-85d1-467a-903e-2c2a55895c71]
+10:35:04.956 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Amazon / Sign In Command Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+10:35:04.957 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Amazon / Sign In Command Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 33053
+Only local connections are allowed.
+10:35:05.605 INFO - Detected dialect: OSS
+10:35:05.607 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Amazon / Sign In Command Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+10:35:05.611 INFO - Executing: [get: https://www.amazon.com])
+10:35:06.159 INFO - Done: [get: https://www.amazon.com]
+10:35:06.174 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:06.277 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:06.788 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:06.796 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:07.309 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:07.319 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:07.827 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:07.834 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:08.349 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:08.358 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:08.872 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:08.882 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:09.388 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:09.396 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:09.911 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:09.920 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:10.427 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:10.436 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:10.948 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:10.957 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:11.467 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:35:11.475 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:35:11.479 INFO - Executing: [take screenshot])
+10:35:21.502 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'so.local', ip: 'fe80:0:0:0:444:79fc:d24:c820%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/bw/v_cc8dnj4tb7g9lg6w348l080000gn/T/.org.chromium.Chromium.QObEHY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 7700f55e0fc1321b0dad39d6350c5bb5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.server.handler.CaptureScreenshot.call(CaptureScreenshot.java:36)
+	at org.openqa.selenium.remote.server.handler.CaptureScreenshot.call(CaptureScreenshot.java:26)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+10:35:21.502 WARN - Exception: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'so.local', ip: 'fe80:0:0:0:444:79fc:d24:c820%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/bw/v_cc8dnj4tb7g9lg6w348l080000gn/T/.org.chromium.Chromium.QObEHY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 7700f55e0fc1321b0dad39d6350c5bb5
+10:35:21.512 INFO - Executing: [delete session: 9e54f68c-a5ea-4936-957f-d64e484a66bd])
+10:35:21.581 INFO - Done: [delete session: 9e54f68c-a5ea-4936-957f-d64e484a66bd]
+10:35:21.590 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Amazon / Sign In, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+10:35:21.591 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Amazon / Sign In, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 43114
+Only local connections are allowed.
+10:35:22.174 INFO - Detected dialect: OSS
+10:35:22.175 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Amazon / Sign In, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+10:35:22.183 INFO - Executing: [get: https://www.amazon.com])
+10:51:45.126 INFO - Done: [get: https://www.amazon.com]
+10:51:45.132 INFO - Executing: [find elements: By.cssSelector: #nav-link-accountList])
+10:51:45.160 INFO - Done: [find elements: By.cssSelector: #nav-link-accountList]
+10:51:45.163 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #nav-link-accountList]])
+10:51:45.181 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #nav-link-accountList]]
+10:51:45.184 INFO - Executing: [find element: By.cssSelector: #nav-link-accountList])
+10:51:45.203 INFO - Done: [find element: By.cssSelector: #nav-link-accountList]
+10:51:45.207 INFO - Executing: [click: 0 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #nav-link-accountList]])
+10:51:47.602 INFO - Done: [click: 0 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #nav-link-accountList]]
+10:51:47.605 INFO - Executing: [find element: By.cssSelector: #ap_email])
+10:51:47.623 INFO - Done: [find element: By.cssSelector: #ap_email]
+10:51:47.626 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #ap_email]])
+10:51:47.642 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #ap_email]]
+10:51:47.646 INFO - Executing: [find element: By.cssSelector: #ap_password])
+10:51:47.664 INFO - Done: [find element: By.cssSelector: #ap_password]
+10:51:47.667 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #ap_password]])
+10:51:47.687 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #ap_password]]
+10:51:47.690 INFO - Executing: [find element: By.cssSelector: #ap_email])
+10:51:47.698 INFO - Done: [find element: By.cssSelector: #ap_email]
+10:51:47.701 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #ap_email], [n, i, g, h, t, w, a, t, c, h, @, t, e, s, t, ., c, o, m]])
+10:51:47.825 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #ap_email], [n, i, g, h, t, w, a, t, c, h, @, t, e, s, t, ., c, o, m]]
+10:51:47.827 INFO - Executing: [find element: By.cssSelector: #ap_password])
+10:51:47.835 INFO - Done: [find element: By.cssSelector: #ap_password]
+10:51:47.838 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #ap_password], [P, a, s, s, w, o, r, d, 1]])
+10:51:47.908 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #ap_password], [P, a, s, s, w, o, r, d, 1]]
+10:51:47.912 INFO - Executing: [find element: By.cssSelector: #signInSubmit])
+10:51:47.928 INFO - Done: [find element: By.cssSelector: #signInSubmit]
+10:51:47.931 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #signInSubmit]])
+10:52:09.271 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (d625dace1fa22b9f7c45b6de189f9f3f)] -> css selector: #signInSubmit]]
+10:52:09.276 INFO - Executing: [find element: By.cssSelector: #hud-customer-name > div > a])
+10:52:09.561 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#hud-customer-name > div > a"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'so.local', ip: 'fe80:0:0:0:444:79fc:d24:c820%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/bw/v_cc8dnj4tb7g9lg6w348l080000gn/T/.org.chromium.Chromium.H6V7fO}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d625dace1fa22b9f7c45b6de189f9f3f
+*** Element info: {Using=css selector, value=#hud-customer-name > div > a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+10:52:09.562 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":"#hud-customer-name > div > a"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'so.local', ip: 'fe80:0:0:0:444:79fc:d24:c820%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/bw/v_cc8dnj4tb7g9lg6w348l080000gn/T/.org.chromium.Chromium.H6V7fO}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d625dace1fa22b9f7c45b6de189f9f3f
+*** Element info: {Using=css selector, value=#hud-customer-name > div > a}
+10:52:09.588 INFO - Executing: [take screenshot])

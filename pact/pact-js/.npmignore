@@ -1,0 +1,19 @@
+# folders
+
+config/
+coverage/
+docs/
+karma/
+logs/
+pacts/
+test/
+examples/
+
+# files
+.babelrc
+.codeclimate.yml
+.editorconfig
+.istanbul.yml
+.travis.yml
+jscpd.json
+ROADMAP.md

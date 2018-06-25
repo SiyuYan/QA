@@ -1,0 +1,173 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Google",
+		"_postman_id": "87118de1-a978-3957-f6f0-5fb3b2de0e7c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search books whose name contains \"test\"",
+			"request": {
+				"url": "https://www.googleapis.com/books/v1/volumes?q=test",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Search books whose name contains \"cucumber\", max number of results to return is 1",
+			"request": {
+				"url": "https://www.googleapis.com/books/v1/volumes?q=cucumber&maxResults=1",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieves a Volume resource based on ID",
+			"request": {
+				"url": "https://www.googleapis.com/books/v1/volumes/0dge3Xh6EjUC",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": "Retrieves a Volume resource based on ID"
+			},
+			"response": []
+		},
+		{
+			"name": "Add a sheet",
+			"request": {
+				"url": "https://sheets.googleapis.com/v4/spreadsheets/1gU8HQ72E7ECWqQYINSE2zhJlFiSpqMTVG3ShnzJQquE:batchUpdate",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ya29.CjAqA5oHNsJvnJb0Uh-RAqdMalrBTQZojhRKqYTzAJLQ1gLdnv19HXyHOvUJNzFiwHw",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"requests\": [\n    {\n      \"addSheet\": {\n        \"properties\": {\n          \"title\": \"juewen\",\n                    }\n      }\n    }\n  ]\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"url": "https://sheets.googleapis.com/v4/spreadsheets/1gU8HQ72E7ECWqQYINSE2zhJlFiSpqMTVG3ShnzJQquE/values:batchUpdate",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ya29.CjAqA_LggrOFCHW_AvAeUuRR7UOb_Hh10HYkz47fjESQYIPhV33AV8e36Adi1UndKB8",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/javascript",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"valueInputOption\": \"USER_ENTERED\",\n  \"data\": [\n    {\n      \"range\": \"Sheet1!A1:A4\",\n      \"majorDimension\": \"COLUMNS\",\n      \"values\": [\n        [\"Item\", \"Wheel\", \"Door\", \"Engine\"]\n      ]\n    },\n    {\n      \"range\": \"Sheet1!B1:D2\",\n      \"majorDimension\": \"ROWS\",\n      \"values\": [\n        [\"Cost\", \"Stocked\", \"Ship Date\"],\n        [\"$20.50\", \"4\", \"3/1/2016\"]\n      ]\n    }\n  ]\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://sheets.googleapis.com/v4/spreadsheets/1oWJuCpcrZEvi-rlnWqvl3bc1PTSbOw40NXbDp6kKWE4/values/Sheet1!A1:D5?valueInputOption=USER_ENTERED",
+			"request": {
+				"url": "https://sheets.googleapis.com/v4/spreadsheets/1oWJuCpcrZEvi-rlnWqvl3bc1PTSbOw40NXbDp6kKWE4/values/Sheet1!A1:D5?valueInputOption=USER_ENTERED",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ya29.Ci8mA1FqoJcLtCKxwa0BoVyS6yCga74O3Se7D0FBXYUd9EbTrIDo9qdq5lFNo3Pt3Q",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"range\": \"Sheet1!A1:D5\",\n  \"majorDimension\": \"ROWS\",\n  \"values\": [\n    [\"Item\", \"Cost\", \"Stocked\", \"Ship Date\"],\n    [\"Wheel\", \"$20.50\", \"4\", \"3/1/2016\"],\n    [\"Door\", \"$15\", \"2\", \"3/15/2016\"],\n    [\"Engine\", \"$100\", \"1\", \"30/20/2016\"],\n    [\"Totals\", \"=SUM(B2:B4)\", \"=SUM(C2:C4)\", \"=MAX(D2:D4)\"]\n  ]\n}"
+				},
+				"description": "Google Sheets API"
+			},
+			"response": []
+		},
+		{
+			"name": "Read a single range",
+			"request": {
+				"url": "https://sheets.googleapis.com/v4/spreadsheets/1gU8HQ72E7ECWqQYINSE2zhJlFiSpqMTVG3ShnzJQquE/values/Sheet1!A1:D5",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ya29.CjAqA0vaA_0HE5UJeO9iBYRheTSFh9XHJI4_fGLQHsrbcSSSH-oAUN2KIfGFMsqs97g",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a sheet by ID",
+			"request": {
+				"url": "https://sheets.googleapis.com/v4/spreadsheets/1gU8HQ72E7ECWqQYINSE2zhJlFiSpqMTVG3ShnzJQquE:batchUpdate",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ya29.CjAqA_LggrOFCHW_AvAeUuRR7UOb_Hh10HYkz47fjESQYIPhV33AV8e36Adi1UndKB8",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"requests\": [\n    {\n      \"deleteSheet\": {\n        \"sheetId\": 248821853\n      }\n    }\n  ]\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

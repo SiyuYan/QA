@@ -1,0 +1,7 @@
+node_modules
+typings
+npm-debug.log
+reports/*
+npm-debug.log.*
+**/*.js
+screenshots

@@ -1,0 +1,21 @@
+engines:
+  eslint:
+    enabled: true
+    exclude_fingerprints:
+    - e64415b948d76d28a63ee395869035f2
+    - 31888c520d29b85472c4e2b6d08f7d94
+  duplication:
+    enabled: true
+    config:
+      languages:
+        - javascript
+ratings:
+   paths:
+   - "src/**/*"
+exclude_paths:
+- "config/**/*"
+- "dist/**.js"
+- "examples/**/*"
+- "karma/**/*"
+- "test/**/*"
+- "docs/**/*"

@@ -1,0 +1,19 @@
+{
+  "name": "nightwatch-demo",
+  "version": "1.0.0",
+  "description": "Simple demo's of nightwatch UI testing",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/nightwatch/bin/nightwatch"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.9.11",
+    "phantomjs-prebuilt": "^2.1.14",
+    "selenium-server": "^3.4.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.10"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "supertest-workshop",
+  "description": "API automation test by Supertest",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jacquelinezhang/supertest",
+  "author": {
+    "name": "Jacqueline Zhang"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jacquelinezhang/supertest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jacquelinezhang/supertest/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jacquelinezhang/supertest/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "test/supertest-workshop",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.5.3",
+    "supertest": "^1.2.0"
+  },
+  "keywords": [],
+  "dependencies": {
+    "chai-string": "^1.2.0"
+  }
+}

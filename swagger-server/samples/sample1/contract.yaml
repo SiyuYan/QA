@@ -1,0 +1,103 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  contact:
+    name: Gecloud Team
+  title: Listing Composer
+  description: |
+    Provides information about listings.
+
+    The service honors `Accept-Language` header to deliver formattings and translations in an appropriate language.
+
+host: listing-composer.a.autoscout24.com
+basePath: /mobile-api
+schemes:
+  - https
+produces:
+  - application/json
+paths:
+  /listings:
+    get:
+      description: Returns listing summaries for the given Ids
+      produces:
+        - application/json
+      parameters:
+        - name: listingIds
+          in: query
+          description: comma separated list of listing guids
+          required: true
+          type: array
+          items:
+            type: string
+          collectionFormat: csv
+        - name: pretty
+          in: query
+          description: whether the response json must be pretty formatted
+          required: false
+          type: boolean
+      responses:
+        200:
+          description: List of Listing Summaries
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/ListingSummaryData'
+  /listings/{listingId}:
+    get:
+      description: Returns detailed listing description for a given ID
+      produces:
+        - application/json
+      parameters:
+        - name: listingId
+          in: path
+          description: Listing UUID
+          required: true
+          type: string
+      responses:
+        200:
+          description: OK
+          schema:
+            $ref: '#/definitions/ListingDetailsData'
+definitions:
+  ListingDetailsData:
+    type: object
+    required:
+      - id
+      - details
+    properties:
+      id:
+        type: string
+        description: GUID of the listing
+      details:
+        $ref: 'https://classified-detail.a.autoscout24.com/assets/classified-detail/definitions/mobile-api.yaml#/definitions/ListingDetails'
+      priceAuthority:
+        $ref: 'https://priceevaluation.a.autoscout24.com/priceevaluation/assets/swagger/spec.yml#/definitions/price-detail'
+  ListingSummaryData:
+    type: object
+    required:
+      - id
+      - summary
+    properties:
+      id:
+        type: string
+        description: GUID of the listing
+      summary:
+        $ref: 'https://classified-detail.a.autoscout24.com/assets/classified-detail/definitions/mobile-api.yaml#/definitions/ListingSummary'
+      priceAuthority:
+        $ref: 'https://priceevaluation.a.autoscout24.com/priceevaluation/assets/swagger/spec.yml#/definitions/price-summary'
+      detailLink:
+        type: string
+        description: URL to the endpoint returning complete listing details
+
+  /:
+    get:
+      produces:
+        - text/html
+      responses:
+        default:
+          description: The Swagger Pet Store homepage :)
+          schema:
+            type: file
+            default:
+              $ref: index.html
+

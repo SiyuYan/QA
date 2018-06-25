@@ -1,0 +1,6 @@
+--bail
+--require ./test/helper.js
+--reporter spec
+--colors
+--recursive
+--timeout 10000

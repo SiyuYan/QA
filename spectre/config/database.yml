@@ -1,0 +1,22 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  username:
+  password:
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: spectre_development
+
+test: &test
+  <<: *default
+  database: spectre_test
+
+cucumber:
+  <<: *test
+
+production:
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>

@@ -1,0 +1,48 @@
+{
+  "name": "swagger-server-samples",
+  "version": "1.0.0",
+  "description": "Sample REST APIs for Swagger Server",
+  "keywords": [
+    "express",
+    "swagger",
+    "server",
+    "samples",
+    "mock",
+    "fake",
+    "stub",
+    "test",
+    "rest",
+    "api"
+  ],
+  "author": {
+    "name": "James Messinger",
+    "url": "http://bigstickcarpet.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/BigstickCarpet/swagger-server/tree/master/samples",
+  "main": "README.md",
+  "scripts": {
+    "start": "cd sample1 && node server.js",
+    "sample1": "cd sample1 && node server.js",
+    "sample2": "cd sample2 && node server.js",
+    "sample3": "cd sample3 && node server.js",
+    "build": "jshint . --verbose && jscs . --verbose",
+    "upgrade": "ncu --upgradeAll && npm update",
+    "bump": "bump --prompt",
+    "release": "npm run upgrade && npm run build && npm run bump && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BigstickCarpet/swagger-server.git"
+  },
+  "dependencies": {
+    "@bigstickcarpet/mock-data": "^3.0.11",
+    "swagger-server": ">=1.0.0-alpha.16"
+  },
+  "devDependencies": {
+    "jscs": "^2.1.1",
+    "jshint": "^2.8.0",
+    "npm-check-updates": "^2.2.2",
+    "version-bump-prompt": "^1.5.1"
+  }
+}

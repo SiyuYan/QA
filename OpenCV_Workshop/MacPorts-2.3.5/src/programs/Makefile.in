@@ -1,0 +1,11 @@
+# $Id$
+
+srcdir = @srcdir@
+VPATH  = @srcdir@
+
+SUBDIR=	@EXTRA_PROGS@
+
+include $(srcdir)/../../Mk/macports.subdir.mk
+
+distclean::
+	rm -f Makefile

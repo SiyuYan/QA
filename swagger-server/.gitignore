@@ -1,0 +1,9 @@
+*~
+._*
+.DS_Store
+npm-debug.log
+/.idea
+/node_modules
+/coverage
+/.old
+/samples/node_modules
